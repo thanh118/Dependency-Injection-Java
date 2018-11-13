@@ -1,4 +1,5 @@
 package guru.springframework.didemo.services;
 
-public class GreetingService {
+public interface GreetingService {
+    String sayGreeding();
 }
