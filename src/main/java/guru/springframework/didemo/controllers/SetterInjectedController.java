@@ -1,5 +1,5 @@
 package guru.springframework.didemo.controllers;
-<<<<<<< HEAD
+
 import guru.springframework.didemo.services.GreetingService;
 public class SetterInjectedController {
     private GreetingService greetingService;
@@ -10,8 +10,5 @@ public class SetterInjectedController {
     public void setGreetingService(GreetingService greetingService){
         this.greetingService = greetingService;
     }
-=======
 
-public class SetterInjectedController {
->>>>>>> master
 }

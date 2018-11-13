@@ -1,6 +1,5 @@
 package guru.springframework.didemo.controllers;
 
-<<<<<<< HEAD
 import guru.springframework.didemo.services.GreetingServiceImpl;
 
 public class PropertyInjectedController {
@@ -14,7 +13,5 @@ public class PropertyInjectedController {
     public GreetingServiceImpl getGreetingService(){
         return  greetingService;
     }
-=======
-public class PropertyInjectedController {
->>>>>>> master
+
 }

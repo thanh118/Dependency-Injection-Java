@@ -1,6 +1,5 @@
 package guru.springframework.didemo.controllers;
 
-<<<<<<< HEAD
 import guru.springframework.didemo.services.GreetingServiceImpl;
 import org.junit.Assert;
 import org.junit.Before;
@@ -19,7 +18,4 @@ public class PropertyInjectedControllerTest {
     public void testGreeding() throws Exception{
         Assert.assertEquals(GreetingServiceImpl.HELLO_GURUS, propertyInjectedController.sayHello());
     }
-=======
-public class PropertyInjectedControllerTest {
->>>>>>> master
 }
