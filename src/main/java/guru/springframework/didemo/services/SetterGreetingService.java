@@ -1,12 +1,9 @@
 package guru.springframework.didemo.services;
-
 import org.springframework.stereotype.Service;
-
 @Service
-public class ConstructorGreetingService implements GreetingService {
-
+public class SetterGreetingService implements GreetingService{
     @Override
     public String sayGreeding(){
-        return "Hello- I was injected via the constructor";
+        return "Hello- I was injected by the setter" ;
     }
 }
